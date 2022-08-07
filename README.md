@@ -29,4 +29,4 @@ Once the data processing is over the user can execute different queries to monit
 - **/numCurrentPatients [disease]**: disease is optional. If disease is specified, then the program prints the total number of patients, who are still treated with the specific disease. In different case it prints the total number of parients who are still in hospitals.
 - **/exit**: the program terminates.
 
-Different txt input files are provided - each contains different number of records. 
+Different txt input files are provided - each contains different number of records. The report of the project, where the interconnection between the data structures are fully explained, is also uploaded on the repository in Greek.
