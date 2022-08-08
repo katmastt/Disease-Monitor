@@ -3,7 +3,7 @@
 First exercise on Systems' Programming course - Departement of Informatics and Telecommunications, National & Kapodistrian Uneversity of Athens.
 This is the C implementation of a disease monitor that can record, process and respond to queries for various disease cases. It consist of different kind of data structures, such as: Hashtables, Max heap, Linked lists and AVL BSStrees.
 
-# RUN
+# Run
 
 **./diseaseMonitor -p patientRecordsFile –h1 diseaseHashtableNumOfEntries –h2 countryHashtableNumOfEntries –b bucketSize**
 
@@ -12,7 +12,7 @@ This is the C implementation of a disease monitor that can record, process and r
 - countryHashtableNumOfEntries: the size of hashtable used for locating patient's information per country.
 - bucketSize: the size in Bytes of the hashtables' buckets.
 
-# IMPLEMENTATION
+# Implementation
 
 At the beginning, the check of the arguments takes place. In case some or all of them are faulty - if  diseaseHashtableNumOfEntries, countryHashtableNumOfEntries or bucketSize are not integer numbers or the patientRecordsFile does not exits, then the faulty ones are replaced with the default values from definitions.h. Then each line of the patientRecordsFile is red and the construction of the different data structure begins, so the data can be stored in memory. While each record is processed, the program also checks whether it is valid - if the record ID already exists or if the exit date precedes the entry date of the patient's admission then the entry is rejected. You can have a better understanding of all the different structures used on the following figure:  
 
